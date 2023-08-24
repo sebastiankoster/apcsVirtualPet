@@ -4,7 +4,7 @@ void setup()
   background(126,126,0);
 }
 int x=8;
-float eyesize=1;
+float eyesize=1.2;
 void draw()
 {
 fill(147,99,40);
@@ -27,10 +27,9 @@ circle(x*(100-22), x*20, x*10);
 triangle(x*25,x*35,x*25,x*32,x*45,x*30);
 triangle(x*75,x*35,x*55,x*30,x*75,x*32);
 //eyebrows
-rect(x*45,x*45,x*10,x*20);
+rect(x*45,x*50,x*10,x*12);
 ellipse(50*x,62.5*x,x*15,x*7);
 //nose
-
 
 fill(240,240,256);
 triangle(45*x,70.5*x,55*x,70.5*x,50*x,77*x);
@@ -39,8 +38,8 @@ triangle(55*x,70.5*x,65*x,72*x,60*x,77*x);
 //mouth top
 
 fill(240,240,256);
-triangle(45*x,72*x,40*x,79*x,50*x,79*x);
-triangle(55*x,72*x,50*x,79*x,60*x,79*x);
+triangle(45*x,72*x,40*x,78*x,49.5*x,79*x);
+triangle(55*x,72*x,50.5*x,79*x,60*x,78*x);
 //mouth bottom
 
 fill(150,150,150);
