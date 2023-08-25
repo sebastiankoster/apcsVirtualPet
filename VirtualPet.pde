@@ -1,9 +1,9 @@
 void setup() 
 {
-  size(800,800);
+  size(1000,1000);
   background(126,126,0);
 }
-int x=8;
+float x=10;
 float eyesize=1.2;
 void draw()
 {
@@ -21,9 +21,9 @@ circle(x*60,x*40,eyesize*x*10);
 //eyes
 
 fill(191,156,114);
-circle(x*22, x*20, x*10);
-circle(x*(100-22), x*20, x*10);
-//eyes
+circle(x*22, x*20, x*13);
+circle(x*(100-22), x*20, x*13);
+//ears
 triangle(x*25,x*35,x*25,x*32,x*45,x*30);
 triangle(x*75,x*35,x*55,x*30,x*75,x*32);
 //eyebrows
