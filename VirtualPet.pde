@@ -16,13 +16,13 @@ ellipse(x*50,x*50,x*75,x*80);
 //head
 
 fill(180,256,200);
-circle(x*40,x*40,eyesize*x*10);
-circle(x*60,x*40,eyesize*x*10);
+ellipse(x*40,x*40,eyesize*x*10,eyesize*x*10);
+ellipse(x*60,x*40,eyesize*x*10,eyesize*x*10);
 //eyes
 
 fill(191,156,114);
-circle(x*22, x*20, x*13);
-circle(x*(100-22), x*20, x*13);
+ellipse(x*22, x*20, x*13,x*13);
+ellipse(x*(100-22), x*20, x*13,x*13);
 //ears
 triangle(x*25,x*35,x*25,x*32,x*45,x*30);
 triangle(x*75,x*35,x*55,x*30,x*75,x*32);
